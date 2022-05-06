@@ -1,0 +1,48 @@
+:root {
+    --color-primary: #00a8ff;
+}
+body {
+    height: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-direction: column
+}
+.board {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 150px;
+    height: 150px;
+    font-family: sans-serif;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reloadBtn {
+    font-size: 20px;
+    border: none;
+    background: var(--color-primary);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 50px;
+    cursor: pointer
+}
